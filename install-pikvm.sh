@@ -38,10 +38,10 @@ if [ -e $script ];
 	then
 		echo "Script fan_ctrl-dkn.py already exists. Updating..."
 		rm $script
-		wget "https://raw.githubusercontent.com/th3drk0ne/DKN-Fan-Controller/main/fan_ctrl-dkn.py"
+		wget "https://raw.githubusercontent.com/wnark/DKN-Fan-Controller/main/fan_ctrl-dkn.py"
 		echo "Update complete."
 	else
-		wget "https://raw.githubusercontent.com/th3drk0ne/DKN-Fan-Controller/main/fan_ctrl-dkn.py"
+		wget "https://raw.githubusercontent.com/wnark/DKN-Fan-Controller/main/fan_ctrl-dkn.py"
                 echo "Download  complete."
 fi
 #-----------------------------------------------------------
